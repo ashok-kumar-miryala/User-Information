@@ -27,6 +27,7 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
+gem 'carrierwave'
 gem 'devise'
 gem 'omniauth-github'
 # Reduces boot times through caching; required in config/boot.rb
@@ -56,3 +57,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
+gem 'mini_magick', '~> 4.3'
+gem 'jt-rails-address', '~> 1.0'
