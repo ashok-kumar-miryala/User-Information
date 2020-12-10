@@ -14,6 +14,7 @@ It is an example app and a basic template for devise auth in rails 6 with omni g
 
 ### Clone
 ```bash
+git clone git@github.com:ashok-kumar-miryala/User-Information.git
 cd users_data
 ```
 ### Install and migrate db

@@ -3,7 +3,6 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
   end
 
-
   def update
     @user = User.find(params[:id])
     if @user.update(account_update_params)
@@ -12,7 +11,6 @@ class UsersController < ApplicationController
             render 'edit'
         end
   end
-
 
   def users
     @users = User.all
